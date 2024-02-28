@@ -24,10 +24,6 @@
 .title-one{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    width: 496px;
-    height: 120px;
-    top: 260px;
-    left: 472px;
     color: #FFFFFF;
     text-align: center;
 
@@ -43,6 +39,9 @@
         letter-spacing: 0.03em;
         text-align: left;
         color:#4D5AE5;
+        text-transform: uppercase;
+        line-height: 1.17;
+
 }
 .logo-head{
     color: #2E2F42;
@@ -55,6 +54,12 @@
             letter-spacing: 0.02em;
             text-align: left;
             color: #2E2F42;
+}
+.link-page:hover{
+    color: #404bbf
+}
+.link-page:focus{
+    color: #404bbf;
 }
 .link-page{
     color: #2E2F42;
@@ -71,17 +76,10 @@
 .button-knopka:hover{
     background: #404BBF;
 }
-.button-knopka:active{
+.button-knopka:focus{
     background: #404BBF;
 }
 .button-knopka{
-    width: Hug 169px; 
-    height: Hug 56px; 
-    top: 428px; 
-    left: 636px; 
-    padding: 16px, 32px, 16px, 32px; 
-    border-radius: 4px; 
-    gap: 10px;
     background: #4D5AE5;
     cursor: pointer;
     font-family: Roboto,sans-serif;
@@ -91,13 +89,6 @@
         letter-spacing: 0.04em;
         text-align: left;
         color: #FFFFFF;
-        width: Hug 169px;
-        height: Hug 56px;
-        top: 428px;
-        left: 636px;
-        padding: 16px, 32px, 16px, 32px;
-        border-radius: 4px; 
-        gap: 10px;
         background: #4D5AE5;
 }
 .header-str{
@@ -119,15 +110,6 @@
     text-align: left;
     color: #434455;
 }
-.header-pun{
-    font-family: "Roboto", sans-serif;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-        color: #2E2F42;
-}
 .paragraf-one {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -137,15 +119,7 @@
     text-align: left;
     color: #434455;
 }
-.header-dili{
-    font-family: "Roboto", sans-serif;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-        color: #2E2F42;
-}
+
 .paragraf-one {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -155,15 +129,7 @@
     text-align: left;
     color: #434455;
 }
-.header-tech{
-    font-family: "Roboto", sans-serif;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        text-align: left;
-        color: #2E2F42;
-}
+
 .paragraf-one {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -180,6 +146,10 @@
         line-height: 40px;
         letter-spacing: 0.02em;
         text-align: center;
+        line-height: 1.11;
+        text-transform: capitalize;
+        color: #2e2f42;
+    
 }
 .name{
         font-family: "Roboto", sans-serif;
@@ -192,7 +162,7 @@
 }
 .prof{
     
-        font-family: Roboto, sans-serif;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
@@ -202,13 +172,17 @@
 }
 .header-portfolio{
     
-        font-family: Roboto,sans-serif;
+        font-family: "Roboto",sans-serif;
         font-size: 36px;
         font-weight: 700;
         line-height: 40px;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        line-height: 1.11;
+        text-transform: capitalize;
+        color:#2e2f42
+        
 }
 .main-portfolio{
     
@@ -236,4 +210,7 @@
 }
 .footer-ramka{
     background: #2E2F42;
+}
+.team-tri{
+    background-color: #F4F4FD;
 }
