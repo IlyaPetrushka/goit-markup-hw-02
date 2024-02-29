@@ -29,6 +29,7 @@
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    
 
 }
 .selekcion-ramka {
@@ -76,6 +77,12 @@
         letter-spacing: 0.02em;
         text-align: left;
         color: #434455;
+}
+.my-contact:hover{
+    color: #404bbf;
+}
+.my-contact:focus{
+    color: #404bbf;
 }
 .button-knopka:hover{
     background: #404BBF;
@@ -217,7 +224,7 @@
 .footer-ramka{
     background: #2E2F42;
 }
-.team-tri{
+.team_tri{
     background-color: #F4F4FD;
 }
 .adres{
@@ -230,3 +237,9 @@
     letter-spacing: 0.02em;
     background: #2E2F42;
 }
+.body-fam{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
+}
+
