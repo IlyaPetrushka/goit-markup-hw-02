@@ -26,6 +26,9 @@
     font-weight: 700;
     color: #FFFFFF;
     text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 
 }
 .selekcion-ramka {
@@ -150,6 +153,8 @@
         line-height: 1.11;
         text-transform: capitalize;
         color: #2e2f42;
+        background-color: #F4F4FD;
+        background-color: #FFFFFF;
     
 }
 .name{
@@ -220,4 +225,7 @@
 }
 .footer-text{
     background: #F4F4FD;
+    line-height: 1.5;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
 }
