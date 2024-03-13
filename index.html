@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,40 +18,59 @@
             text-decoration: none;
         }
     </style>
+    
 </head>
-
+ 
 <body class="body-fam">
 
-    <header>
-
-
-        <nav>
+    <header class="main-page">
+        <nav class="heder-logo">
+      <div class="container  ">
+        
             <a href="./index.html" class="logo">WEB<span class="logo-head">Studio</span></a>
             <ul style="list-style-type: none" class="head-page">
+                <ul class="heder-menu-list">
                 <li><a href="./index.html" class="link-page">Studio</a></li>
                 <li><a href="" class="link-page">Portfolio</a></li>
                 <li><a href="" class="link-page">Contacts</a></li>
-
-            </ul>
+                </ul>
+                
         </nav>
-        <address class="adres">
-
+                
+        
+       
+            <div class="container-two">
+               
+                
+                
             <ul style="list-style-type: none">
+                <ul class="heder-contact">
                 <li><a href="mailto:info@devstudio.com" class="my-contact">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111" class="my-contact">+11 (000) 111-11-11</a></li>
             </ul>
-        </address>
+            </ul>
+            
+        </div>
+        </div>
     </header>
 
     <main>
+        <div class="container">
+        <section class="ramkaone"></section>
         <section class="selekcion-ramka">
             <h1 class="title-one">Effective Solutions <br>
                 for Your Business</h1>
             <button type="button" class="button-knopka">Order Service</button>
+            </div>
         </section>
         <section>
-            <h2>Section2</h2>
+            <div class="container-two">
+            <h2></h2>
+            
             <ul style="list-style-type: none">
+                <ul class="list-style">
+                
+                
                 <li>
                     <h3 class="header-str">Strategy</h3>
                     <p class="paragraf-one">Our goal is to identify the business
@@ -78,34 +98,64 @@
                         passion for problem-solving.</p>
                 </li>
             </ul>
+            </ul>
+            </div>
+            
         </section>
+        
         <section class="team_tri">
-
+          
+            <div class="wrap">
+            
             <h2 class="header-team">Our Team </h2>
             <ul style="list-style-type: none">
+                <ul class="foto-team-people">
                 <li class="foto-team">
-                    <img src="./images/img1.jpg" width="264" alt="Mark">
+                    <div class="container">
+                    <div class="foto-one-item">
+                    <div class="foto-one"><img src="./images/img1.jpg" width="264" alt="Mark"></div>
                     <h3 class="name">Mark Guerrero</h3>
                     <p class="prof">Product Designer</p>
+                    </div>
+                    </div>
                 </li>
                 <li class="foto-team">
-                    <img src="./images/img2.jpg" width="264" alt="Tom">
+                    <div class="container">
+                    <div class="foto-one-item">
+                    <div class="foto-two"><img src="./images/img2.jpg" width="264" alt="Tom"></div>
                     <h3 class="name">Tom Ford</h3>
                     <p class="prof">Frontend Developer</p>
+                    </div>
+                    </div>
                 </li>
                 <li class="foto-team">
-                    <img src="./images/img3.jpg" width="264" alt="Camila">
+                    <div class="container">
+                    <div class="foto-one-item">
+                    <div class="foto-three"><img src="./images/img3.jpg" width="264" alt="Camila"></div>
                     <h3 class="name">Camila Garcia</h3>
                     <p class="prof">Marketing</p>
+                    </div>
+                    </div>
                 </li>
+                
                 <li class="foto-team">
-                    <img src="./images/img4.jpg" width="264" alt="Daniel">
+                    <div class="container">
+                        <div class="foto-one-item">
+                    <div class="foto-four"><img src="./images/img4.jpg" width="264" alt="Daniel"></div>
                     <h3 class="name">Daniel Wilson</h3>
                     <p class="prof">UI Designer</p>
+                    </div>
+                    </div>
                 </li>
             </ul>
+            </ul>
+            </div>
+           
         </section>
         <section>
+            <div class="container">
+                <div class="container">
+                    <div class="foto-one-item">
             <h2 class="header-portfolio">Our Portfolio</h2>
             <ul style="list-style-type: none">
                 <li>
@@ -137,8 +187,13 @@
                     <img src="./images/imgsix.jpg" alt="Online" width="360" height="300">
                     <h3 class="main-portfolio">Online Courses</h3>
                     <p class="main-prof">Marketing</p>
+                    
                 </li>
+                </div>
+                </div>
             </ul>
+            </div>
+            </div>
         </section>
     </main>
     <footer class="footer-ramka">
@@ -148,6 +203,9 @@
             marketing & growth solutions.
         </p>
     </footer>
+    
 </body>
+</header>
+
 
 </html>

@@ -21,6 +21,34 @@
     font-weight: 700;
     font-style: normal;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+ul{
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+}
+a{
+    text-decoration: none;
+}
+.main-page{
+    width: 1440px;
+    height: 72px;
+    margin-left: 156px;
+    margin-right: 156px;
+   
+}
+
 .title-one{
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -34,6 +62,9 @@
 }
 .selekcion-ramka {
     background: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    top: 72px;
 }
 .logo{
         font-family: "Raleway", sans-serif;
@@ -101,6 +132,7 @@
         text-align: left;
         color: #FFFFFF;
         background: #4D5AE5;
+        
 }
 .header-str{
     font-family: "Roboto", sans-serif;
@@ -162,6 +194,8 @@
         color: #2e2f42;
         background-color: #F4F4FD;
         background-color: #FFFFFF;
+    
+        
     
 }
 .name{
@@ -226,6 +260,8 @@
 }
 .team_tri{
     background-color: #F4F4FD;
+    width: 1440px; height: 732px; top: 1016px;
+    
 }
 .adres{
     font-style: normal
@@ -243,6 +279,158 @@
     background-color:#FFFFFF;
 }
 .foto-team{
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+    display: inline-flex;
+    padding-left: 156px;
+    padding-right: 156px;
+    margin: 24px;
 }
+
+
+.title-one {
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        text-align: center;
+}
+
+.button-knopka {
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     letter-spacing: 0.04em;
+     text-align: center;
+     width: Hug 169px;
+     height: Hug 56px; 
+     top: 428px; 
+     left: 636px;
+     padding: 16px 32px 16px 32px;
+     border-radius: 4px;
+     gap: 10px;
+     
+    
+}
+.ramkaone{
+    width: 1440px;
+    height: 72px; 
+    border: 0px 0px 1px 0px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #E7E9FC;
+    display: flex;
+}
+
+.container{
+    width: Hug 264px;
+    height: Hug 380px;
+    top: 1248px;
+    left: 156px;
+    padding: 0px, 0px, 32px, 0px;
+    border-radius: 0px, 0px, 4px, 4px;
+    gap: 32px;
+    margin: auto;    
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+}
+.container-two{
+    width: 1128px;
+    height: 104px;
+    top: 792px;
+    left: 156px;
+    margin: auto;
+    margin-top: 120px;
+}
+.foto-one-item{
+width: 264px; 
+margin: auto;
+
+}
+.name{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+    margin-bottom: 8px;
+    margin-top: 32px;
+
+    
+}
+.prof{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: center;
+        margin: 0px;
+}
+.heder-logo{
+    
+    align-items: center;
+    width: 1440px; 
+    height: 72px;
+
+}
+.heder-contact {
+    display: flex;
+    gap: 40px;
+    flex-flow: row nowrap;
+
+}
+.heder-logo.container {
+   height: inherit;
+   
+   justify-content: space-between;
+   align-items: center;
+}
+.heder-container {
+    width: 1440px;
+    height: 72px;
+}
+.adres{
+    
+}
+
+.heder-menu-list{
+    gap: 40px;
+    display: flex;
+    margin-left: 76px;
+    
+}
+
+
+.container-two{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.list-style{
+    display: flex;
+    gap: 24px;
+}
+.foto-team-people{
+    
+    align-items: center;
+}
+.my-contact{
+    display: flex;
+    align-items: center;
+}
+.foto-one{
+    margin-left: 156px;
+}
+.foto-four{
+    margin-right: 156px;
+}
+.wrap{
+    width: 1440px;
+    height: 732px;
+    top: 1016px;
+}
+.header-team{
+    align-content: center;
+}
+
 
