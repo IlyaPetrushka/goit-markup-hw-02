@@ -46,6 +46,7 @@ a{
     height: 72px;
     margin-left: 156px;
     margin-right: 156px;
+    
    
 }
 
@@ -60,12 +61,7 @@ a{
     
 
 }
-.selekcion-ramka {
-    background: #2E2F42;
-    width: 1440px;
-    height: 600px;
-    top: 72px;
-}
+
 .logo{
         font-family: "Raleway", sans-serif;
         font-size: 18px;
@@ -90,6 +86,12 @@ a{
             letter-spacing: 0.02em;
             text-align: left;
             color: #2E2F42;
+}
+.selekcion-ramka{
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+    background-position: center;
 }
 .link-page:hover{
     color: #404bbf
@@ -257,6 +259,7 @@ a{
 }
 .footer-ramka{
     background: #2E2F42;
+    display: flex;
 }
 .team_tri{
     background-color: #F4F4FD;
@@ -318,29 +321,10 @@ a{
     background: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;
     display: flex;
+    align-items: center;
 }
 
-.container{
-    width: Hug 264px;
-    height: Hug 380px;
-    top: 1248px;
-    left: 156px;
-    padding: 0px, 0px, 32px, 0px;
-    border-radius: 0px, 0px, 4px, 4px;
-    gap: 32px;
-    margin: auto;    
-    width: 1440px;
-    height: 600px;
-    top: 72px;
-}
-.container-two{
-    width: 1128px;
-    height: 104px;
-    top: 792px;
-    left: 156px;
-    margin: auto;
-    margin-top: 120px;
-}
+
 .foto-one-item{
 width: 264px; 
 margin: auto;
@@ -366,71 +350,54 @@ margin: auto;
         text-align: center;
         margin: 0px;
 }
-.heder-logo{
-    
-    align-items: center;
-    width: 1440px; 
-    height: 72px;
-
-}
-.heder-contact {
+.header-menu-list{
     display: flex;
     gap: 40px;
-    flex-flow: row nowrap;
-
+    
+    
 }
-.heder-logo.container {
-   height: inherit;
-   
-   justify-content: space-between;
-   align-items: center;
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
 }
-.heder-container {
+.header-navigation{
+    display: flex;
+}
+.container{
+    width: 1128px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    
+}
+.header-menu-contact{
+    display: flex;
+    gap: 40px;
+}
+.container-one{
     width: 1440px;
     height: 72px;
-}
-.adres{
-    
-}
-
-.heder-menu-list{
-    gap: 40px;
     display: flex;
-    margin-left: 76px;
-    
 }
-
-
 .container-two{
-    display: flex;
-    flex-flow: row nowrap;
+    padding: 188px 472px 472px 292px;
+    background: #2E2F42;
 }
-
-.list-style{
+.comtainer-button{
+    padding: 356px 636px 635px 188px;
+}
+.header-opis{
+    display: flex;
+}
+.header-people{
     display: flex;
     gap: 24px;
 }
-.foto-team-people{
-    
-    align-items: center;
-}
-.my-contact{
+.image-portfolio{
     display: flex;
-    align-items: center;
 }
-.foto-one{
-    margin-left: 156px;
+.image-portfolio-two{
+    display: flex;
 }
-.foto-four{
-    margin-right: 156px;
-}
-.wrap{
-    width: 1440px;
-    height: 732px;
-    top: 1016px;
-}
-.header-team{
-    align-content: center;
-}
-
-
