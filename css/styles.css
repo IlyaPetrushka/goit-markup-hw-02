@@ -539,6 +539,10 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
 }
 
 .list-footer {
